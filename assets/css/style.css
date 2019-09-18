@@ -4,5 +4,15 @@ body {
 
 h1 {
     font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+}
 
+.container {
+    background-color: white;
+    text-align: center;
+    height: 100%;
+    margin: auto;
+    width: 80%;
+    border: 3px solid #24cd41;
+    padding: 10px;
 }
