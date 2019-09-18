@@ -7,6 +7,7 @@
     <!-- Link to jquery  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+
     <!-- Link to bootstrap -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -22,25 +23,22 @@
 </head>
 
 <body>
-    <!-- Header -->
-    <header>
-        <p>Video Game Trivia</p>
-    </header>
-    <!--Trivia Area-->
     <div class="container">
-        <div class="jumbotron mx-auto">
-            <div class="timer-div isHidden">
-                <div id="timer">timer will go here</div>
+        <div class="row" id="main-header">
+            <div class="col-md-12">
+                <h1>Trivia Game</h1>
             </div>
-            <div class="row">
-                <div class="col-md-12 questions-div">
-                    <div id="questionsContainer"></div>
-                </div>
+        </div>
+        <div classs="row" id="starting">
+            <button id=start>Click Here to Start</button>
+        </div>
+        <div class="row" id="timer">
+            <div class="col-md=12">
+                <p>Timer will go here</p>
             </div>
-            <div class="row">
-                <div class="col-md-12 choices-div">
-                    <div id="choicesContainer"></div>
-                </div>
+        </div>
+        <div class="row" id="questions">
+            <div class="col-md-12">
             </div>
         </div>
     </div>

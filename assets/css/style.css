@@ -2,16 +2,22 @@ body {
     background: url(../images/bg.jpg) no-repeat center center fixed; 
     background-size: cover;  }
 
-header {
+h1 {
     font-size: 40px;
     font-family: 'Press Start 2P', cursive;
 }
 
-.jumbotron {
-    max-width: 580px;
-    padding-top: 15px;
-    position: relative;
-    padding-bottom: 21px;
-    box-shadow: 1px 1px #eddecd;
+.container {
+    background-color: white;
+    text-align: center;
+    height: 100%;
+    margin: auto;
+    width: 80%;
+    border: 3px solid #24cd41;
+    padding: 10px;
 }
 
+
+p {
+    display: block !important;
+}
